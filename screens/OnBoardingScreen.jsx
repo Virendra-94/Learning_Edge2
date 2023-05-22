@@ -12,7 +12,7 @@ const OnBoardingScreen = () => {
     pages={[
       {
         backgroundColor: '#fff',
-        image: <Image source={{uri:"https://img.freepik.com/premium-vector/cute-student-boy-girl-characters-illustration_294791-395.jpg?w=740"}} 
+        image: <Image source={require('../assets/images/welcome.jpg')} 
         className="w-72 h-72 object-contain"
         />,
         title: 'Welcome to ...',
